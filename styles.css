@@ -1,0 +1,1312 @@
+html{
+    font-size: 62.5%
+}
+
+body{
+    margin: 0;
+    font-family: 'Playfair Display';
+    width: 100%;
+    overflow-x: hidden;
+    
+}
+
+.black{
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.chat{
+  text-align: center;
+  /* position: relative; */
+  
+  top: -50px;
+  /* margin-left: 100px; */
+  font-weight: bold;
+  font-family: 'Playfair Display';
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social{
+  text-align: center;
+  padding-top: 2em;
+  
+}
+
+
+nav{
+    margin:4em;
+}
+
+/* .menu-button {
+  
+  visibility: hidden; 
+  background-color: #fff; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.bar {
+  display: none;
+  width: 25px;
+  height: 3px;
+  background-color: #333; 
+  margin: 4px 0;
+}
+
+.mobile-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mobile-nav li {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.mobile-nav a {
+  display: block;
+  text-decoration: none;
+  color: #333; 
+  font-size: 1.7rem;
+  padding: 1em 0;
+  border-bottom: 1px solid #ccc; 
+}
+
+.mobile-nav a.active {
+  font-weight: bold;
+} */
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap:4.0em;
+    margin: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-family: 'Poppins';
+    position: relative;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    font-family: 'Poppins';
+    position: relative;
+    text-decoration-style: none;
+}
+
+li{
+    list-style: none;
+}
+
+nav a.active:before{
+position: absolute;
+content: '';
+width: 35%;
+height: 1px;
+border-bottom: 2px solid black;
+bottom: -6px;
+}
+
+nav a:before{
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 1px;
+    border-bottom: 2px solid rgb(88, 86, 86);
+    bottom: -6px;
+    transition: width .3s;
+}
+
+main{
+    display: flex;
+    gap: 8em;
+    margin-top: 11em;
+}
+
+.navbar-toggle {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20px;
+}
+
+.navbar-toggle span {
+  background-color: #fff;
+  height: 3px;
+  width: 25px;
+  margin: 2px 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.left-col{
+width: 45%;
+
+}
+
+.right-col{
+    flex-grow: 1;
+}
+
+h1{
+    font-size: 5.2rem;
+    font-family: 'Playfair Display';
+    font-weight: normal;
+    margin: 0;
+}
+
+.subhead{
+    font-size: 1.8rem;
+    font-weight: normal;
+    
+}
+
+.head{
+  position: relative;
+  
+  font-size: 1.8em;
+  margin: 0;
+  padding: 3.5em;
+  
+}
+
+.chatting{
+  position: relative;
+  top: -5.9em;
+  text-align: justify;
+}
+
+.cta-btns{
+    margin: 5em 0;
+}
+
+.cta-btns, .secondary-cta{
+display:flex;
+gap: 2em;
+
+}
+
+main{
+  
+}
+
+body{
+  
+}
+
+.primary-cta{
+    background-color: #E9C49B;
+    /* box-shadow:-1px 1px 6px 11px rgb(241, 175, 186); */
+    font-size: 1.8rem;
+    font-weight: bold;
+    /* color: black; rgb(34, 32, 32)*/
+    color: #836854 ;
+    text-decoration: none;
+    border-radius: 1.9em;
+    padding: 1em 2em;
+}
+
+.custom{
+  /* #a38f6c #a3846c*/
+  background-color: #a3846c;
+  color:#e9dc9b;
+}
+
+.secondary-cta{
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 1em 0;
+    align-items: center;
+    
+}
+
+.secondary-cta svg{
+    width: 20px;
+    transition: transform .3s;
+}
+#myContacts{
+  position: relative;
+  top: -60px;
+  
+  
+  padding-top: -90%;
+  margin: 10px; 
+  font-weight: bold;
+}
+
+.news{
+    display: flex;
+    gap:3em;
+    padding: 5em;
+    border: 1px solid black;
+    border-radius: 0.8em;
+    position: relative;
+}
+
+.news:before{
+    position: absolute;
+    content: '';
+    background: url('./images/confetti.svg');
+    width: 100px;
+    height: 100px;
+    top: -20px;
+    left: -20px;
+
+}
+
+#firstSection{
+
+
+}
+
+p.employees{
+    font-size: 3.3rem;
+    font-family: 'Poppins';
+    margin: 0;
+    font-weight: 200;
+    line-height: 100%;
+}
+
+p.details{
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.right-col{
+    width: 100vh;
+    height: 100%;
+    position: relative;
+    display: grid;
+    
+    gap: 2.3em;
+    /* grid-template-columns: repeat(2, auto);
+    grid-template-areas: 
+    "left right"
+    "left bottom"
+    ; */
+}
+
+.card{
+    /* position: relative;
+    top:-4em;
+    left: 1em;
+    background: gray;
+    border-radius: .8em;
+    padding: 1.1em;
+    display: flex;
+    align-items: end;
+    background-size: 150%;
+    transition: background-size 800ms;
+    width: 60vh;
+    height: 35rem; */
+}
+
+.card1{
+    /* grid-area: center;
+    background-image: url('./images/985383626.jpg');
+  background-size: 40rem 40rem;
+  background-repeat: no-repeat; */
+}
+
+.image{
+    position: relative;
+    border-radius: 8em;
+    margin-left: 19em;
+    margin-bottom: 1em;
+    /* box-shadow:-1px 1px 6px 11px rgb(241, 175, 186); */
+}
+
+.card{
+    border-radius: .8em;
+    padding: 1.1em;
+    background-size: 150%;
+    transition: background-size 800ms;
+    transition-timing-function: ease-out;
+    
+}
+
+.card:hover{
+    /* transform: translateY(-10px) */
+    
+}
+
+.card-title{
+font-weight: bold;
+font-size:1.8em;
+font-family: "Poppins";
+}
+
+p a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+    font-style: "Poppins";
+}
+
+p a:hover{
+    color: orange;
+}
+
+.card-text{
+
+}
+
+.projects{
+    display: flex;
+    justify-content: center;
+    font-size: 5.2rem;
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    margin: 0;
+    top: -5em;
+    position: relative;
+    
+    
+}
+
+.contacts{
+  display: flex;
+    justify-content: center;
+    font-size: 5.2rem;
+    font-family: 'Playfair Display';
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 1182px) and (max-width: 1280px){
+  .social{text-align: center;
+  position: relative;
+  top: -870px;
+  
+  }
+}
+
+@media only screen and (min-width: 1142px) and (max-width: 1179px){
+  .social{text-align: center;
+  position: relative;
+  top: -870px;
+  }
+}
+
+@media only screen and (min-width: 771px) and (max-width: 1019px){
+
+
+.social{
+  margin-top: 40%;
+}
+
+.socials{
+  padding-top: -50%;
+}
+}
+
+@media only screen and (min-width: 853px) and (max-width: 1280px) {
+  body{
+    font-size: 100%;
+  }
+
+  .cta-btns{
+    margin: 1em 0;
+    text-align: center; /* Center align buttons */
+    margin-left: -1em;
+  }
+
+  .picture{
+    position: relative;
+    top: -30px;
+    max-width: 100%;
+    height: 30%;
+    
+    margin-left: -20px;
+  }
+
+  .social{
+    padding-top: 80%;
+  }
+
+  
+
+  .front{
+    color: rgb(33, 160, 33);
+  }
+}
+
+@media only screen and (min-width: 712px) and (max-width: 1138px) {
+  body{
+    font-size: 100%;
+  }
+
+  .picture{
+    position: relative;
+    top: -30px;
+    max-width: 100%;
+    height: 30%;
+    
+    margin-left: 70px;
+  }
+
+  .social{
+    padding-top: 30px;
+  }
+
+  .head{
+    position: relative;
+    top: 70px;
+  }
+
+  #myContacts{
+    padding-bottom: 10px;
+  }
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  body{
+    font-size: 100%;
+  }
+
+  .head{
+    position:relative;
+    top: 3em;
+    /* padding-top: 50px;
+    margin-top: -50px; */
+  }
+
+  .picture{
+    position: relative;
+    top: -30px;
+    max-width: 100%;
+    height: 30%;
+    
+    margin-left: -20px;
+  }
+
+  #myContacts{
+    
+  }
+
+}
+
+/* Common styles for all screen sizes */
+/* Styles for devices with a minimum width of 768px and a maximum width of 1024px (typically tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Your CSS styles for tablets here */
+  body{
+    font-size: 100%;
+  }
+
+  /* Hide the desktop menu by targeting the relevant elements, e.g., your header and nav */
+   nav {
+    display: none;
+   
+  }
+
+  .myName{
+    padding-left: 3em;
+  }
+
+  .navbar-toggle{
+    display: block;
+    visibility: visible;
+  }
+
+  .image{
+    display: block;
+    
+    
+    
+  }
+
+  .picture{
+    position: relative;
+    top: -30px;
+    max-width: 100%;
+    height: 50%;
+    border-radius: 10em;
+    margin-left: -20px;
+  }
+
+  .designer,
+  .subhead
+  {
+    
+    width:140%;
+    padding-left: 1.8em;
+    margin: 1px;
+  
+    
+  }
+
+  .social, .socials{
+
+    padding-top: 50%;
+
+  }
+
+  .social{
+padding-top: 50%;
+  }
+
+  .socials{
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+    
+  }
+
+  .about{
+    display: block;
+  }
+
+  .name{
+    width: 195%;
+    padding-left: 0.7em;
+  }
+
+  .primary-cta{
+    display: flex;
+    margin-left: 39px;
+    width: 150%;
+    color: rgb(37, 36, 36);
+    display: none;
+  }
+  #allProjects{
+    display: none;
+
+  }
+
+  .head{
+    position: relative;
+    width: 100%;
+    height: 25%;
+    text-align:justify;
+    padding: 1.6em;
+  }
+
+  /* .social {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 90em;
+    padding-bottom: 0%;
+  } */
+
+  .about {
+    display: flex;
+    justify-content: center;
+    font-size: 5.2rem;
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    margin: 0;
+    padding-top: 1em;
+}
+
+.skills{
+  padding-top: 250px;
+  position: relative;
+  top: 80em;
+  
+}
+
+#allProjects{
+  position: relative;
+  top: -5em;
+  display: block;
+  padding-top: -50em;
+  text-align: center;
+}
+
+.row, .card{
+  width:42vh;
+  display: block;
+  /* flex-wrap: wrap; */
+  position: relative;
+  top: 0.9em;
+justify-content: space-between;
+
+
+}
+
+.tools{
+  padding-top: 60px;
+  height: 20px;
+}
+
+.projects{
+  position: relative;
+  top: -16em;
+}
+
+.row-cols-3 {
+  
+  position: relative;
+  top: -33em;
+  display: block;
+
+}
+
+.chatting{
+  position:relative;
+  top: 5em;
+}
+
+.chat{
+  padding-top: 1.4em;
+}
+
+.socials {
+  flex-direction: row;
+  width: 100%;
+  /* padding-bottom: -8em; */
+  font-size: small;
+  margin-top: 4em;
+  margin-left: 35em;
+  /* padding-right: -14px; */
+  /* padding-top: -502em; */
+  /* font-size: 1.8em; */
+  font-family: "Poppins";
+  color: black; 
+  position: relative;
+  /* top: -200em; */
+  left: -19em;
+  
+  
+}
+
+.linked{
+  width: 100%;
+  font-size: small;
+  position: relative;
+  padding-top: -600em;
+  display: flex;
+  flex-direction: row;
+
+}
+
+  .cta-btns{
+    margin: 1em 0;
+    text-align: center; /* Center align buttons */
+    margin-left: -1em;
+  }
+
+  .front{
+    color: rgb(33, 160, 33);
+  }
+}
+
+@media (max-width: 768px) {
+
+}
+
+/* Mobile (up to 767px) */
+@media (max-width: 767px) {
+  body {
+    font-size: 100%; /* Reset font size */
+    
+  }
+
+  .primary-cta{
+    display: flex;
+    margin-left: 39px;
+    width: 150%;
+    color: rgb(37, 36, 36);
+    display: block;
+  }
+
+  .mobile-menu {
+    display: block; /* Show the mobile menu */
+  }
+
+  /* Hide the desktop menu by targeting the relevant elements, e.g., your header and nav */
+  header, nav {
+    display: none;
+  }
+
+  .designer,
+  .subhead
+  {
+    
+    width:90%;
+    padding-left: 2em;
+  
+    
+  }
+
+  .left-col{
+    position: relative;
+    top: 20px;
+  }
+
+  
+
+  
+
+  .wrapper {
+    max-width: 100%;
+  }
+
+  /* .card, .card-body {
+    width: 100%; 
+  } */
+
+  .head{
+    position: relative;
+    width: 100%;
+    height: 25%;
+    text-align:justify;
+    padding: 1.6em;
+  }
+
+.row, .card{
+  width:42vh;
+  display: block;
+  flex-wrap: wrap;
+  position: relative;
+  top: 22em;
+justify-content: space-between;
+
+
+}
+
+.row, .cols{
+  
+}
+
+
+
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a.active:before,
+  nav a:before {
+    width: 0; /* Hide the underline on smaller screens */
+  }
+
+  main {
+    flex-direction: column;
+    margin-top: 2em; /* Adjust margin for smaller screens */
+  }
+
+  .left-col
+  {
+    width: 100%; /* Full width on mobile */
+    text-align: center; /* Center align content */
+    padding: 1em;
+  }
+
+  .right-col{
+    width: 100%;
+   margin-left: -20em;
+  }
+
+  .cta-btns {
+    margin: 1em 0;
+    text-align: center; /* Center align buttons */
+    margin-left: -1em;
+    
+  }
+
+  .primary-cta {
+    padding: 1em 3em; /* Adjust button size for mobile */
+  }
+
+  .picture {
+    max-width:  90%; /* Adjust image size for mobile */
+  }
+
+  .projects{
+    position: relative;
+    top: 1em;
+  }
+
+  .row{
+
+  }
+
+    .social {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 110em;
+    padding-bottom: 0%;
+  }
+
+  .socials {
+    flex-direction: row;
+    
+    
+    width: 60%;
+    padding-bottom: 8em;
+    font-size: small;
+    margin-right: -30em;
+    padding-top: 28em;
+    /* font-size: 1.8em; */
+    font-family: "Poppins";
+    color: black; 
+    position: relative;
+    left: -25em;
+    
+    
+  }
+
+  .tools{
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .email{
+    max-width: 100%;
+    height: auto;
+    left: 2.5em;
+  }
+
+  .skills{
+padding-top: 350px;
+  }
+
+  .contact{
+    text-align: center;
+  }
+
+  .myName{
+display: block;
+padding-left: 3em;
+  }
+
+  
+
+  
+
+  .overlay {
+    display: none; /* Hide overlay on mobile */
+  }
+}
+
+/* Tablet (768px to 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Add specific styles for tablets here */
+}
+
+/* You can add more media queries for larger screens if needed */
+
+
+  /* @media only screen and (max-width: 1676px) { */
+    /* For mobile phones: */
+     /* .about, .reveal-type {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 10%;
+      
+    }
+  }
+
+  @media only screen and (max-width: 440px) { */
+    /* For mobile phones: */
+      /* .reveal-type {
+      
+      margin-right: 40%;
+      
+    }
+  } */
+
+
+
+.picture{
+    border-radius: 10em;
+    width:50vh;
+    height: auto;
+    
+    
+}
+
+body{
+  background-color: white;
+}
+.socials{
+    display: flex;
+    position: relative;
+    align-items: center;
+    top: -15em;
+    margin-left: 30em;
+    gap: 3em;
+    font-size: 1.8em;
+    font-family: "Poppins";
+    color: black;  
+    
+}
+
+.git{
+  margin-left: -45px;
+  text-decoration: underline;
+}
+
+.link{
+ 
+}
+
+.event{
+  width: 90%;
+  margin-left: 20em;
+  margin-bottom: 20em;
+}
+
+.frame{
+  width: 50%;
+  height: 50%;
+}
+
+.mockup{
+  margin-top: 10em;
+}
+
+.eventm{
+  font-weight: normal;
+  font-size: 1.8rem;
+  font-family: "Poppins";
+}
+
+.eventman{
+  font-weight: normal;
+  font-size: 1.8rem;
+  font-family: "Poppins";
+}
+
+.skills{
+  position: relative;
+  top: -120px;
+  display: flex;
+    justify-content: center;
+    font-size: 5.2rem;
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    margin: 0;
+  width: 100%;
+    text-align:center;
+    /* padding-top: -100px; */
+
+}
+
+.persona{
+  
+  font-weight: bolder;
+  font-size: 2em;
+}
+
+body{
+  background-image: url(GTA6-png);
+}
+
+/* head{
+  position:relative;
+  top: -50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 400px;
+  padding: 50px 10vw;
+} */
+.wave{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 197px;
+}
+
+section{
+  position: relative;
+}
+
+.pictures{
+  position: relative;
+  top: -130px;
+  /* padding-bottom: 290px; */
+  margin-left: -200px;
+  width: 950px;
+  height: 600px;
+}
+
+
+
+.wave .shape-fill {
+  fill: #000000;
+}
+
+.blob-motion{
+  position: absolute;
+  transform: translate(-10%);
+}
+
+.blob-motion1{
+  position: absolute;
+  transform: translate(-65%);
+}
+.blue{
+  background-color: rgb(197, 137, 147);
+}
+
+.dark{
+  background-color: black;
+}
+
+.curve{
+  position: absolute;
+  height: 225px;
+  width: 100%;
+  bottom: 0
+}
+
+.curve::before{
+content: "";
+display: block;
+position: absolute;
+border-radius: 100% 50%;
+width: 55%;
+height: 100%;
+background-color: white;
+transform: translate(85%, 60%)
+}
+
+.curve::after{
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  width: 55%;
+  height: 100%;
+  background-color: rgb(197, 137, 147);
+  transform: translate(-4, 80%);
+  z-index: -1;
+}
+
+.flow{
+  margin-top: 0.9em;
+}
+
+.border{
+  margin-left: 20em;
+  margin-top: 10em;
+}
+
+.reg, .log{
+  font-weight: bolder;
+  font-size: 2em;
+}
+
+.designer{
+  font-weight: bolder;
+}
+
+.front{
+  color:#35282a;
+}
+
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E9C49B;
+width: 100%;
+height: 80px; 
+bottom: 0;
+position: relative;
+text-align: center;
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(104, 48, 48);
+}
+
+.social a{
+    text-decoration: none;
+}
+
+.card2{
+    
+    background-image: url('./images/clothing2.jpg');
+}
+
+.card3{
+    background-image: url('./images/clothing3.jpg');
+}
+
+.card-details{
+    background: white;
+    border-radius: .6em;
+    padding: 2em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: transform 800ms;
+}
+
+.card-details a{
+    color: black;
+    font-size: 1.6rem;
+    font-family: 'Poppins';
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.card-details p{
+    font-size: 1.4rem;
+    font-family: 'Poppins';
+    margin: 0;
+
+}
+
+p.price{
+    font-size: 1.8rem;
+}
+
+nav a:hover:before{
+width: 35%;
+}
+
+.primary-cta:hover{
+    background: #EBB577;
+}
+
+.secondary-cta:hover svg{
+    transform: translateX(10px);
+
+}
+
+.row{
+  padding-top: -10em;
+  position: relative;
+  top: -12em;
+}
+
+section{
+height: 100vh;
+padding: 0 clamp(9rem, 12vw, 60rem);
+display: flex;
+justify-content: center;
+/* align-items: center; */
+/* place-content: center; */
+
+}
+
+.para{
+font-size: clamp(2rem, 3vw, 1.8rem);
+}
+
+&:nth-of-type(3){
+    background: #E9C49B;
+}
+
+.about{
+    
+    display: flex;
+    justify-content: center;
+    font-size: 5.2rem;
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    margin: 0;
+    padding-top: 1em;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    
+    font-size: 5.2rem;
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    margin: 0;
+    padding-top: 2em;
+}
+
+
+
+.card:hover .card-details{
+transform: translateY(-20px)
+}
+
+
+.overlay{
+    position: absolute;
+    z-index: 999;
+    background: white;
+    width: 100%;
+    height: 100%;
+    animation: reveal 1s ease-in forwards;
+    transform-origin: bottom;
+}
+
+@keyframes reveal{
+    from{
+        transform: scaleY(1)
+    }
+
+    to{
+        transform: scaleY(0)
+    }
+}
+
+main{
+    animation: growIn 2s cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
+    transform: scale(.4)
+}
+
+@keyframes growIn{
+    to{
+        transform: scale(1)
+    }
+}
